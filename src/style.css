@@ -63,7 +63,16 @@ body {
 }
 
 .header > div:first-child {
+  display: flex;
+  align-items: center;
   font-size: 4.5vw;
+}
+
+.gif {
+  width: 8vw;
+  height: 8vw;
+  margin-left: 1vw;
+  pointer-events: none;
 }
 
 .tabs {
