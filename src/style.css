@@ -59,26 +59,26 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #F8E9E9;
-  padding: 30px;
+  padding: 2.5vw;
 }
 
 .header > div:first-child {
-  font-size: 50px;
+  font-size: 4vw;
 }
 
 .tabs {
   display: flex;
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .menu {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .tab:hover {
-  text-decoration: underline 1px;
-  text-underline-offset: 5px;
+  text-decoration: underline .1vw;
+  text-underline-offset: .4vw;
 }
 
 /* Main content */
