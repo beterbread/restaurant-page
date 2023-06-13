@@ -77,9 +77,9 @@ body {
 }
 
 .tab:hover {
-  cursor: pointer;
   text-decoration: underline .1vw;
   text-underline-offset: .4vw;
+  cursor: pointer;
 }
 
 /* Main content */
