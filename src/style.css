@@ -59,7 +59,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #F8E9E9;
-  padding: 2.5vw;
+  padding: 2.5vw 3.5vw;
 }
 
 .header > div:first-child {
