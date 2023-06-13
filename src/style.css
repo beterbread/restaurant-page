@@ -47,29 +47,48 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; 	
+}
+
 /* Header */
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
+  align-items: center;
+  background-color: #F8E9E9;
+  padding: 30px;
+}
+
+.header > div:first-child {
+  font-size: 50px;
 }
 
 .tabs {
   display: flex;
+  font-size: 30px;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .tab:hover {
-  background-color: white;
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
 }
 
 /* Main content */
 .main {
   height: 100px;
-  background-color: pink;
+  background-color: #CBAC88;
 }
 
 /* Footer */
 .footer {
   height: 100px;
-  background-color: grey;
+  background-color: #69995D;
 }

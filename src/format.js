@@ -12,7 +12,7 @@ const format = () => {
   const menuTab = document.createElement('div');
   const contactTab = document.createElement('div');
   
-  name.textContent = 'Mock name'; // CHANGE NAME
+  name.textContent = 'Kitty Cafe'; 
   homeTab.textContent = 'Home';
   menuTab.textContent = 'Menu';
   contactTab.textContent = 'Contact';
