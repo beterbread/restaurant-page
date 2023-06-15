@@ -20,8 +20,6 @@ const menu = () => {
   const image3 = document.createElement('img');
   const type3 = document.createElement('p');
   
-  image2.classList.add('oreo');
-  image3.classList.add('carm');
   text.textContent = 'BOBA';
   type1.textContent = 'Milk tea';
   type2.textContent = 'Milk tea';
@@ -32,14 +30,13 @@ const menu = () => {
   boba1.append(image1);
   boba2.append(image2);
   boba3.append(image3);
-  
+  boba1.append(type1);
+  boba2.append(type2);
+  boba3.append(type3);
   
   boba.append(boba1);
   boba.append(boba2);
   boba.append(boba3);
-  boba.append(type1);
-  boba.append(type2);
-  boba.append(type3);
 
   main.append(text);
   main.appendChild(boba);
@@ -57,12 +54,13 @@ const menu = () => {
   const nimage3 = document.createElement('img');
   const ntype3 = document.createElement('p');
 
-  nimage1.classList.add('pork');
-  nimage2.classList.add('egg');
   ntext.textContent = 'NOODLE';
-  ntype1.textContent = 'Pork';
-  ntype2.textContent = 'Pork';
-  ntype3.textContent = 'Pork';
+  ntype1.textContent = 'Pork ramen';
+  ntype2.textContent = 'Pork ramen';
+  ntype3.textContent = 'Pork ramen';
+  nimage1.classList.add('pork');
+  nimage2.classList.add('pork');
+  nimage3.classList.add('pork');
   nimage1.src = pork;
   nimage2.src = pork;
   nimage3.src = pork;
