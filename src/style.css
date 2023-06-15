@@ -282,6 +282,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 2vw;
 }
 
 .boba img,
@@ -298,7 +299,7 @@ body {
 }
 
 .oreo {
-  object-position: 0 -2%;
+  object-position: 0 0;
 }
 
 .carm {
@@ -315,7 +316,7 @@ body {
 
 .menu-section h1 {
   color: #E3655B;
-  font-size: 7vw;
+  font-size: 3.5vw;
   margin-top: 3vw;
   margin-bottom: 2vw;
   margin-left: 12vw;
