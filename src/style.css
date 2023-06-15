@@ -93,12 +93,84 @@ body {
 
 /* Main content */
 .main {
-  height: 100px;
-  background-color: #CBAC88;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  background-color: white;
+}
+
+.main div:first-child {
+  display: flex;
+}
+
+.section {
+  background-color: #F8E9E9;
+  filter:brightness(97%);
+  padding-left: 4vw;
+}
+
+.main div img {
+  width: 50%;
+  height: auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section h1 {
+  color: #E3655B;
+  font-size: 5vw;
+}
+
+.section p {
+  font-size: 2vw;
+  padding-right: 3.5vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+}
+
+.section button {
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 1.5vw 1vw;
+  width: 50%;
+  border: 2px solid black;
+  background-color: white;
+  transition: 0.4s ease;
+}
+
+.section button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.main div:nth-of-type(2) {
+  text-align: center;
+}
+
+.main div:nth-of-type(2) h1 {
+  text-align: center;
+  color: #E3655B;
+  font-size: 4vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+
+.main div:nth-of-type(2) p {
+  margin-bottom: 1vw;
+}
+
+.main div:nth-of-type(2) p:last-child {
+  margin-bottom: 3vw;
 }
 
 /* Footer */
 .footer {
   height: 100px;
-  background-color: #69995D;
+  background-color: pink;
 }

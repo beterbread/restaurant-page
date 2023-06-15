@@ -9,6 +9,7 @@ home();
 const homeBtn = document.querySelector('.home');
 const menuBtn = document.querySelector('.menu');
 const contactBtn = document.querySelector('.contact');
+const button = document.querySelector('button');
 
 homeBtn.addEventListener('click', () => {
   home();

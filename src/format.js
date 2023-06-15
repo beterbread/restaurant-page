@@ -21,9 +21,9 @@ const format = () => {
   title.appendChild(gif);
 
   name.textContent = 'Kitty Cafe'; 
-  homeTab.textContent = 'Home';
-  menuTab.textContent = 'Menu';
-  contactTab.textContent = 'Contact';
+  homeTab.textContent = 'HOME';
+  menuTab.textContent = 'MENU';
+  contactTab.textContent = 'CONTACT';
   homeTab.classList.add('tab', 'home');
   menuTab.classList.add('tab', 'menu');
   contactTab.classList.add('tab', 'contact');
