@@ -162,6 +162,7 @@ body {
 }
 
 .main div:nth-of-type(2) p {
+  font-size: 1.5vw;
   margin-bottom: 1vw;
 }
 

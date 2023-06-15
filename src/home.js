@@ -1,4 +1,5 @@
 import { menu } from './menu.js';
+import Noodle from './images/ramen.jpg'
 
 const home = () => {
   const main = document.querySelector('.main');
@@ -10,7 +11,7 @@ const home = () => {
   const about = document.createElement('h1');
   const descr = document.createElement('p');
   const btn = document.createElement('button');
-  image.setAttribute('src', '/home/beterbread/repos/restaurant-page/src/images/ramen.jpg')
+  image.src = Noodle;
   section.classList.add('section');
   about.textContent = 'ABOUT US';
   descr.textContent = 'We are a feline-themed cafe located in the heart of California, where noodles and boba meet in purrfection. Join us for a delightful fusion of flavors.'
