@@ -1,4 +1,9 @@
-import Noodle from './images/ramen.jpg';
+import milktea from './images/milktea.jpg';
+import oreo from './images/oreo.jpg';
+import caramel from './images/caramel.jpg';
+import pork from './images/pork.jpg';
+import egg from './images/friedegg.jpg';
+import soy from './images/soysauce.jpg';
 
 const menu = () => {
   const main = document.querySelector('.main');
@@ -18,14 +23,16 @@ const menu = () => {
   const boba3 = document.createElement('div');
   const image3 = document.createElement('img');
   const type3 = document.createElement('p');
-
+  
+  image2.classList.add('oreo');
+  image3.classList.add('carm');
   text.textContent = 'BOBA';
-  type1.textContent = 'Type 1';
-  type2.textContent = 'Type 2';
-  type3.textContent = 'Type 3';
-  image1.src = Noodle;
-  image2.src = Noodle;
-  image3.src = Noodle;
+  type1.textContent = 'Milk tea';
+  type2.textContent = 'Oreo';
+  type3.textContent = 'Caramel';
+  image1.src = milktea;
+  image2.src = oreo;
+  image3.src = caramel;
   boba1.append(image1);
   boba1.append(type1);
   boba2.append(image2);
@@ -53,13 +60,15 @@ const menu = () => {
   const nimage3 = document.createElement('img');
   const ntype3 = document.createElement('p');
 
+  nimage1.classList.add('pork');
+  nimage2.classList.add('egg');
   ntext.textContent = 'NOODLE';
-  ntype1.textContent = 'Type 1';
-  ntype2.textContent = 'Type 2';
-  ntype3.textContent = 'Type 3';
-  nimage1.src = Noodle;
-  nimage2.src = Noodle;
-  nimage3.src = Noodle;
+  ntype1.textContent = 'Pork';
+  ntype2.textContent = 'Fried egg';
+  ntype3.textContent = 'Soy sauce';
+  nimage1.src = pork;
+  nimage2.src = egg;
+  nimage3.src = soy;
   nood1.append(nimage1);
   nood1.append(ntype1);
   nood2.append(nimage2);

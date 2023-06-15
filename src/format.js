@@ -15,7 +15,7 @@ const format = () => {
   const contactTab = document.createElement('div');
 
   //Div for name and gif
-  gif.setAttribute('src', "https://giphy.com/embed/Vc9Y0FoHf5EurP3Qjs")
+  gif.setAttribute('src', "https://giphy.com/embed/Vc9Y0FoHf5EurP3Qjs");
   gif.classList.add('gif');
   title.appendChild(name);
   title.appendChild(gif);
