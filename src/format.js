@@ -49,6 +49,7 @@ const format = () => {
   /* Footer */
   const footer = document.createElement('footer');
   footer.classList.add('footer');
+  footer.textContent = '© 2023 Kitty Cafe Franchise Inc. All rights reserved.'
 
   content.appendChild(footer);
 };

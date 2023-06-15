@@ -4,9 +4,13 @@ import Noodle from './images/ramen.jpg'
 const home = () => {
   const main = document.querySelector('.main');
   main.innerHTML = '';
+  main.classList.remove('menu-section', 'contact-section');
+  main.classList.add('home-section');
 
   const welcome = document.createElement('div');
+  welcome.classList.add('welcome');
   const image = document.createElement('img');
+  image.classList.add('homeImg');
   const section = document.createElement('div');
   const about = document.createElement('h1');
   const descr = document.createElement('p');
@@ -26,6 +30,7 @@ const home = () => {
   welcome.appendChild(section);
   
   const hours = document.createElement('div');
+  hours.classList.add('hours');
   const header = document.createElement('h1');
   const text1 = document.createElement('p');
   const text2 = document.createElement('p');
